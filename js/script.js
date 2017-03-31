@@ -1,6 +1,7 @@
 function pingpong(number) {
-
-  return number;
+if ((number/3)%1 === 0) {
+  return "Ping"
+}
 }
 
 $(document).ready(function(){
